@@ -1,41 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    font-family: 'Lexend', sans-serif;
+    line-height: 1.7;
     margin: 0;
-    padding: 2rem;
-    color: #333333;
-    background: linear-gradient(to right, #e6f1ff, #f0f4f8);
-}
-
-.container {
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.wrapper {
     width: 100%;
+    max-width: 900px;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
 header {
     width: 100%;
-    max-width: 1200px;
-    padding: 2rem;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 1.5rem;
     margin-bottom: 2rem;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 3rem;
-    background: -webkit-linear-gradient(45deg, #0077b6, #64ffda);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    color: #212529;
 }
 
 nav ul {
@@ -46,56 +41,49 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 18px;
 }
 
 nav a {
-    color: #0a192f;
+    color: #212529;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 main {
     width: 100%;
-    max-width: 1200px;
-    padding: 40px;
-    margin: 0;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 main h2 {
-    color: #0a192f;
-    border-bottom: 2px solid rgba(10, 25, 47, 0.1);
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #212529;
+    margin-bottom: 1.5rem;
 }
 
 main h3 {
-    color: #0a192f;
+    font-size: 1.5rem;
+    color: #212529;
+    margin-top: 2rem;
 }
 
 ul {
-    list-style: inside;
-    padding-left: 20px;
+    list-style: disc;
+    padding-left: 25px;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 2rem;
-    color: #0a192f;
     width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
 }
 
 /* Underline From Center */
@@ -115,12 +103,12 @@ footer {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #0077b6;
+  background: #1171ba;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
